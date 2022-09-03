@@ -1,0 +1,72 @@
+@media screen and (max-width: 994px) {
+    .promo {
+        background: url(../../img/bg.jpg) fixed no-repeat;
+        .header {
+            margin: 0 35px 0 35px;
+            img {
+                width: 80%;
+            }
+        }
+        &__wrapper {
+            margin-right: 35px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .promo {
+        .header {
+            &__official {
+                display: none;
+            }
+        &__header {
+            margin-top: 0px;
+            font-size: 36px;
+                }
+        }
+    }
+}
+
+@media screen and (max-width: 628px) {
+    .promo {
+        .header {
+            img {
+                margin-bottom: 20px;
+                width: 160px;
+            }
+            &__phone {
+                font-size: 16px;
+            }
+
+        }
+        &__header {
+            font-size: 36px;
+                }
+        &__wrapper {
+            margin: 48px;
+        }
+        &__subheader {
+            font-size: 18px;
+
+        }
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .promo {
+        &__icons {
+            margin-top: 20px;
+            justify-content: right;
+        }
+        &__header {
+            font-size: 28px;
+                }
+        &__subheader {
+            margin-top: 0;
+            font-size: 16px;
+        }
+        .button_main {
+            margin-top: 15px;
+        }
+    }
+}
